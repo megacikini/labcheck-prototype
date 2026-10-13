@@ -1,1 +1,50 @@
 
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LabCheck — Cek Lab, Cek Solusi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a href="#" class="brand" data-page="home">
+      <span class="logo">▣</span>
+      <span>
+        <strong>LabCheck</strong>
+        <small>Cek Lab, Cek Solusi</small>
+      </span>
+    </a>
+    <span class="demo-label">PROTOTYPE DEMO</span>
+  </header>
+
+  <div class="layout">
+    <aside class="sidebar">
+      <p class="nav-title">MENU UTAMA</p>
+      <button class="nav-link active" data-page="home">⌂ Beranda</button>
+      <button class="nav-link" data-page="status">▣ Status Komputer</button>
+      <button class="nav-link" data-page="report">▤ Laporan Masalah</button>
+      <button class="nav-link" data-page="announcements">♧ Pengumuman</button>
+      <button class="nav-link" data-page="guide">ⓘ Panduan</button>
+      <button class="nav-link" data-page="profile">♙ Profil</button>
+    </aside>
+
+    <main class="main">
+      <div id="notice" class="notice" hidden></div>
+      <div id="app"></div>
+      <footer>LabCheck Prototype · Data komputer merupakan simulasi.</footer>
+    </main>
+  </div>
+
+  <nav class="mobile-nav">
+    <button data-page="home">⌂<small>Beranda</small></button>
+    <button data-page="status">▣<small>Status</small></button>
+    <button data-page="report">▤<small>Laporan</small></button>
+    <button data-page="profile">♙<small>Profil</small></button>
+  </nav>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
